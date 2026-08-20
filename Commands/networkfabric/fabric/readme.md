@@ -60,6 +60,12 @@ Manage Network Fabric Resource
 - [rotate-password](/Commands/networkfabric/fabric/_rotate-password.md)
 : Creates new passwords, then updates the Terminal Server and Network Devices to use the new passwords.  Note that disabled devices cannot be updated and must be resynchronized with the new passwords once they are enabled.  Fails if any of the devices could not be updated with the new password. Failed devices should be resynchronized with the new passwords once possible.
 
+- [run-diagnostic](/Commands/networkfabric/fabric/_run-diagnostic.md)
+: Runs diagnostics information collection on the Network Fabric
+
+- [run-validation](/Commands/networkfabric/fabric/_run-validation.md)
+: Runs validation on the Network Fabric for the specified operation. Updated
+
 - [show](/Commands/networkfabric/fabric/_show.md)
 : Show details of the provided Network Fabric resource
 
