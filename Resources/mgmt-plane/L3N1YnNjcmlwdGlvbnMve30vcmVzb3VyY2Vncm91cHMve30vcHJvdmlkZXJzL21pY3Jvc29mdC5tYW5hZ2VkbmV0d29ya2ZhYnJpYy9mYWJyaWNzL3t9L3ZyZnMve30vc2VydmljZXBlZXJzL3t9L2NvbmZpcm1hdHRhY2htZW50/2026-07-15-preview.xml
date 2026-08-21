@@ -28,7 +28,7 @@
           <help short="Must match the live prepared generation."/>
           <format minimum="1"/>
         </arg>
-        <arg type="password" var="$body.servicePeerAttachmentToken" options="service-peer-attachment-token" required="True" group="Body">
+        <arg type="password" var="$body.servicePeerAttachmentToken" options="service-peer-attachment-token spa-token" required="True" group="Body">
           <help short="Exact unexpired token returned by prepareAttachment."/>
           <prompt msg="Password:"/>
         </arg>

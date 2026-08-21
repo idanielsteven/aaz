@@ -505,7 +505,7 @@
           <help short="Remote peer BGP ASN."/>
           <format maximum="4294967295" minimum="1"/>
         </arg>
-        <arg type="object" var="$resource.properties.platformManagedConfig" options="platform-managed-config" group="Properties">
+        <arg type="object" var="$resource.properties.platformManagedConfig" options="platform-managed-config platform-mg-config" group="Properties">
           <help short="Platform-managed peering configuration. Applicable when the parent Fabric's root-level kind is platformManaged."/>
           <arg nullable="True" type="ResourceId" var="$resource.properties.platformManagedConfig.egressAclResourceId" options="egress-acl-resource-id">
             <help short="Per-VRF egress ACL ARM resource ID."/>
@@ -1117,7 +1117,7 @@
           <help short="Remote peer BGP ASN."/>
           <format maximum="4294967295" minimum="1"/>
         </arg>
-        <arg nullable="True" type="object" var="$properties.properties.platformManagedConfig" options="platform-managed-config" group="Properties">
+        <arg nullable="True" type="object" var="$properties.properties.platformManagedConfig" options="platform-managed-config platform-mg-config" group="Properties">
           <help short="Platform-managed peering configuration."/>
           <arg nullable="True" type="ResourceId" var="$properties.properties.platformManagedConfig.egressAclResourceId" options="egress-acl-resource-id">
             <help short="Per-VRF egress ACL ARM resource ID."/>

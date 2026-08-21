@@ -248,7 +248,7 @@
           <help short="Provider-neutral egress labels a customer-created Vrf may select. Empty authorizes private-only routing domains."/>
           <item type="string"/>
         </arg>
-        <arg type="string" var="$resource.properties.customerResourceGroupName" options="customer-resource-group-name customer-rg-name customer-rg" required="True" group="Properties">
+        <arg type="string" var="$resource.properties.customerResourceGroupName" options="customer-rg-name customer-rg" required="True" group="Properties">
           <help short="Exact customer resource group that receives the tenant-local authorization. Required and immutable after creation."/>
           <format minLength="1"/>
         </arg>
