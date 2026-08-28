@@ -21,6 +21,9 @@ Manage Network Device Resource
 - [reboot](/Commands/networkfabric/device/_reboot.md)
 : Reboot the Network Device.
 
+- [refresh-config](/Commands/networkfabric/device/_refresh-config.md)
+: Refreshes the configuration the Network Device.
+
 - [refresh-configuration](/Commands/networkfabric/device/_refresh-configuration.md)
 : Refreshes the configuration the Network Device.
 

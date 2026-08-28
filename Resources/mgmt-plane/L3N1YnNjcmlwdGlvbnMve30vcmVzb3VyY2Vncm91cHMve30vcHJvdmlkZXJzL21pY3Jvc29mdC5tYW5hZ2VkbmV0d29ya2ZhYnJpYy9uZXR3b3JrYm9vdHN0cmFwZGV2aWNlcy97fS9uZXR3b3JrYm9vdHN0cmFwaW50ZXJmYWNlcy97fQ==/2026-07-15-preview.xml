@@ -220,7 +220,7 @@
         <arg type="SubscriptionId" var="$Path.subscriptionId" options="subscription" required="True" idPart="subscription"/>
       </argGroup>
       <argGroup name="Properties">
-        <arg type="string" var="$resource.properties.additionalDescription" options="additional-description" group="Properties">
+        <arg type="string" var="$resource.properties.additionalDescription" options="additional-description add-desc" group="Properties">
           <help short="Additional description of the interface."/>
         </arg>
         <arg type="string" var="$resource.properties.annotation" options="annotation" group="Properties">
@@ -394,7 +394,7 @@
         <arg type="SubscriptionId" var="$Path.subscriptionId" options="subscription" required="True" idPart="subscription"/>
       </argGroup>
       <argGroup name="Properties">
-        <arg nullable="True" type="string" var="$properties.properties.additionalDescription" options="additional-description" group="Properties">
+        <arg nullable="True" type="string" var="$properties.properties.additionalDescription" options="additional-description add-desc" group="Properties">
           <help short="Additional description of the interface."/>
         </arg>
         <arg type="string" var="$properties.properties.annotation" options="annotation" group="Properties">
